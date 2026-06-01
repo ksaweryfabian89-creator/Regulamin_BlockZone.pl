@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulamin Sklepu BlockZone.PL</title>
+<style>
+:root {
+  --red: #ff1f1f;
+  --dark-red: #7a0000;
+  --black: #060606;
+  --card: rgba(14,14,18,0.94);
+  --text: #f4f4f4;
+  --muted: #bdbdbd;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255,0,0,0.35), transparent 32%),
+    radial-gradient(circle at 85% 18%, rgba(255,55,55,0.20), transparent 30%),
+    linear-gradient(180deg, #1b0000 0%, #070707 36%, #030303 100%);
+  min-height: 100vh;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+.header {
+  text-align: center;
+  padding: 64px 18px 30px;
+}
+.badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid rgba(255,31,31,0.8);
+  border-radius: 999px;
+  background: rgba(255,0,0,0.12);
+  color: #ffd4d4;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(34px, 7vw, 72px);
+  color: #fff;
+  text-shadow: 0 0 14px rgba(255,0,0,0.95), 0 0 36px rgba(255,0,0,0.55);
+}
+.header span {
+  color: var(--red);
+}
+.subtitle {
+  margin: 16px auto 0;
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+.wrap {
+  width: min(1120px, calc(100% - 28px));
+  margin: 0 auto 46px;
+}
+.panel {
+  background: var(--card);
+  border: 1px solid rgba(255,31,31,0.78);
+  border-radius: 28px;
+  padding: 26px;
+  box-shadow:
+    0 0 40px rgba(255,0,0,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.04);
+  backdrop-filter: blur(8px);
+}
+.topbar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  background: linear-gradient(90deg, rgba(255,0,0,0.22), rgba(255,255,255,0.035));
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+.topbar strong {
+  color: #fff;
+}
+.topbar a {
+  color: #fff;
+  text-decoration: none;
+  background: var(--red);
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 16px rgba(255,0,0,0.45);
+}
+.rules-section {
+  margin: 18px 0;
+  padding: 18px 18px 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-left: 5px solid var(--red);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.035);
+}
+h2 {
+  margin: 0 0 12px;
+  color: #ff4a4a;
+  font-size: 22px;
+}
+ol {
+  padding-left: 28px;
+  margin-top: 0;
+}
+li {
+  margin: 9px 0;
+  line-height: 1.65;
+}
+li::marker {
+  color: var(--red);
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  color: #aaa;
+  padding: 28px 12px 8px;
+  font-size: 14px;
+}
+@media (max-width: 640px) {
+  .header {
+    padding-top: 44px;
+  }
+  .panel {
+    padding: 16px;
+    border-radius: 20px;
+  }
+  .rules-section {
+    padding: 15px 13px 8px;
+  }
+  .topbar {
+    align-items: stretch;
+  }
+  .topbar a {
+    text-align: center;
+  }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="badge">OFICJALNY DOKUMENT SKLEPU</div>
+  <h1>BLOCKZONE<span>.PL</span></h1>
+</header>
+
+<main class="wrap">
+  <div class="panel">
+    <div class="topbar">
+      <strong>Regulamin sklepu BlockZone.PL</strong>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+
+    
+<section class="rules-section">
+  <h2>§ 1. POSTANOWIENIA OGÓLNE</h2>
+  <ol start="1">
+    <li>Sklep internetowy BlockZone.PL umożliwia zakup usług cyfrowych związanych z serwerem Minecraft BlockZone.PL.</li>
+<li>Właścicielem sklepu jest administracja serwera BlockZone.PL.</li>
+<li>Korzystanie ze sklepu oznacza pełną akceptację niniejszego regulaminu.</li>
+<li>Regulamin obowiązuje każdego użytkownika dokonującego zakupu.</li>
+<li>Wszystkie produkty dostępne w sklepie mają charakter cyfrowy.</li>
+<li>Produkty dostarczane są elektronicznie na wskazane konto gracza.</li>
+<li>Zakup produktu oznacza zawarcie umowy o dostarczenie treści cyfrowej.</li>
+<li>Administracja ma prawo zmieniać ofertę sklepu w dowolnym momencie.</li>
+<li>Administracja ma prawo zmieniać ceny produktów bez wcześniejszego powiadomienia.</li>
+<li>Administracja ma prawo organizować oraz kończyć promocje czasowe.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 2. ZAKUPY I REALIZACJA</h2>
+  <ol start="11">
+    <li>Zakupów w sklepie można dokonywać przez 24 godziny na dobę.</li>
+<li>Kupujący jest zobowiązany do podania poprawnego nicku Minecraft.</li>
+<li>Błędnie wpisany nick może uniemożliwić poprawne dostarczenie produktu.</li>
+<li>Administracja nie odpowiada za błędnie wpisany nick przez kupującego.</li>
+<li>Produkty przyznawane są automatycznie po poprawnym zaksięgowaniu płatności.</li>
+<li>Standardowy czas realizacji zamówienia wynosi do 15 minut.</li>
+<li>W wyjątkowych przypadkach realizacja zamówienia może potrwać do 48 godzin.</li>
+<li>W przypadku braku produktu należy skontaktować się z administracją serwera.</li>
+<li>Do zgłoszenia należy dołączyć nick, datę zakupu oraz potwierdzenie płatności.</li>
+<li>Administracja może ręcznie przyznać produkt po pozytywnej weryfikacji zgłoszenia.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 3. PŁATNOŚCI</h2>
+  <ol start="21">
+    <li>Płatności obsługiwane są przez operatora płatności RisePay.</li>
+<li>Dostępne metody płatności zależą od operatora płatności.</li>
+<li>Administracja nie przechowuje danych kart płatniczych użytkowników.</li>
+<li>Administracja nie przechowuje danych logowania do systemów płatności.</li>
+<li>Problemy z płatnością należy zgłaszać administracji lub operatorowi płatności.</li>
+<li>Zakup uznaje się za poprawny dopiero po zaksięgowaniu płatności.</li>
+<li>Nieopłacone zamówienia nie są realizowane.</li>
+<li>Próba cofnięcia płatności po otrzymaniu produktu może skutkować blokadą konta.</li>
+<li>Fałszywe potwierdzenia płatności są zabronione.</li>
+<li>Próba oszustwa płatniczego może skutkować permanentną blokadą konta.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 4. RANGI, PAKIETY I USŁUGI</h2>
+  <ol start="31">
+    <li>Zakup rangi nie daje immunitetu od kar administracyjnych.</li>
+<li>Gracz posiadający rangę musi przestrzegać regulaminu serwera.</li>
+<li>Administracja może odebrać rangę za łamanie regulaminu serwera.</li>
+<li>Rangi czasowe wygasają automatycznie po upływie określonego czasu.</li>
+<li>Rangi stałe mogą zostać zmienione w przypadku zmian technicznych serwera.</li>
+<li>Administracja może modyfikować zawartość rang, pakietów i usług.</li>
+<li>Zmiany zawartości rang nie są podstawą do zwrotu środków.</li>
+<li>Zakupione usługi przypisane są do konkretnego konta Minecraft.</li>
+<li>Usług nie można przenosić między kontami bez zgody administracji.</li>
+<li>Sprzedaż lub odsprzedaż zakupionych usług bez zgody administracji jest zabroniona.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 5. KLUCZE, SKRZYNKI I LOSOWANIA</h2>
+  <ol start="41">
+    <li>Klucze do skrzynek są produktami cyfrowymi.</li>
+<li>Nagrody ze skrzynek są przyznawane losowo.</li>
+<li>Administracja nie gwarantuje otrzymania konkretnej nagrody.</li>
+<li>Zakup klucza oznacza akceptację losowego charakteru nagród.</li>
+<li>Wylosowana nagroda nie podlega wymianie na inną nagrodę.</li>
+<li>Utrata klucza z winy gracza nie stanowi podstawy reklamacji.</li>
+<li>Administracja może zmieniać zawartość skrzynek.</li>
+<li>Zmiana zawartości skrzynek nie stanowi podstawy zwrotu.</li>
+<li>Błędy skrzynek należy zgłaszać administracji.</li>
+<li>Wykorzystywanie błędów skrzynek jest zabronione.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 6. WALUTA SERWEROWA I PRZEDMIOTY</h2>
+  <ol start="51">
+    <li>Waluta serwerowa nie posiada wartości poza serwerem BlockZone.PL.</li>
+<li>Waluta serwerowa nie podlega wymianie na prawdziwe pieniądze.</li>
+<li>Waluta serwerowa służy wyłącznie do rozgrywki na serwerze.</li>
+<li>Administracja może resetować walutę serwerową w przypadku błędów.</li>
+<li>Administracja może usuwać walutę zdobytą nieuczciwie.</li>
+<li>Przedmioty zakupione w sklepie są produktami cyfrowymi.</li>
+<li>Administracja nie odpowiada za utratę przedmiotów z winy gracza.</li>
+<li>Administracja nie ma obowiązku przywracania przedmiotów utraconych przez śmierć w grze.</li>
+<li>Reset trybu gry nie stanowi podstawy do zwrotu środków.</li>
+<li>Zmiany ekonomii serwera nie stanowią podstawy do zwrotu środków.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 7. ZWROTY I REKLAMACJE</h2>
+  <ol start="61">
+    <li>Wszystkie produkty w sklepie są produktami cyfrowymi dostarczanymi elektronicznie.</li>
+<li>Klient wyraża zgodę na natychmiastową realizację usługi po dokonaniu płatności.</li>
+<li>Po dostarczeniu produktu zwrot środków nie przysługuje.</li>
+<li>Ban nie uprawnia do zwrotu środków.</li>
+<li>Mute nie uprawnia do zwrotu środków.</li>
+<li>Kick nie uprawnia do zwrotu środków.</li>
+<li>Inna kara administracyjna nie stanowi podstawy do zwrotu środków.</li>
+<li>Reklamacje można zgłaszać przez Discord serwera.</li>
+<li>Reklamacja powinna zawierać nick, datę zakupu, potwierdzenie płatności oraz opis problemu.</li>
+<li>Reklamacje rozpatrywane są w terminie do 14 dni.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 8. BEZPIECZEŃSTWO I NADUŻYCIA</h2>
+  <ol start="71">
+    <li>Użytkownik odpowiada za bezpieczeństwo swojego konta Minecraft.</li>
+<li>Administracja nie odpowiada za utratę dostępu do konta Minecraft.</li>
+<li>Zabrania się wykorzystywania błędów sklepu.</li>
+<li>Zabrania się wykorzystywania błędów rang, pakietów i usług.</li>
+<li>Wykrycie nadużyć może skutkować blokadą usług.</li>
+<li>Administracja może usunąć korzyści uzyskane przez błędy techniczne.</li>
+<li>Zakazane jest oszukiwanie administracji.</li>
+<li>Zakazane jest wyłudzanie usług lub produktów.</li>
+<li>Zakazane jest podszywanie się pod innych graczy podczas zakupu.</li>
+<li>Próba obejścia kary może skutkować odebraniem zakupionych usług.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 9. ODPOWIEDZIALNOŚĆ ADMINISTRACJI</h2>
+  <ol start="81">
+    <li>Administracja dokłada wszelkich starań, aby sklep działał prawidłowo.</li>
+<li>Administracja może czasowo wyłączyć sklep w celu konserwacji.</li>
+<li>Prace techniczne mogą powodować czasową niedostępność sklepu.</li>
+<li>Awarie techniczne mogą opóźnić realizację zamówienia.</li>
+<li>Administracja nie odpowiada za awarie Mojang.</li>
+<li>Administracja nie odpowiada za awarie Microsoft.</li>
+<li>Administracja nie odpowiada za awarie operatorów internetowych.</li>
+<li>Administracja nie odpowiada za błędy operatora płatności.</li>
+<li>Administracja nie odpowiada za skutki nieznajomości regulaminu.</li>
+<li>Administracja może odmówić realizacji zamówienia w uzasadnionych przypadkach.</li>
+  </ol>
+</section>
+
+<section class="rules-section">
+  <h2>§ 10. POSTANOWIENIA KOŃCOWE</h2>
+  <ol start="91">
+    <li>Zakup produktów wspiera rozwój serwera BlockZone.PL.</li>
+<li>Środki ze sklepu przeznaczane są na utrzymanie i rozwój serwera.</li>
+<li>Sugestie dotyczące sklepu można zgłaszać administracji.</li>
+<li>Korzystanie ze sklepu oznacza akceptację wszystkich punktów regulaminu.</li>
+<li>Nieznajomość regulaminu nie zwalnia z jego przestrzegania.</li>
+<li>Użytkownik potwierdza zapoznanie się z regulaminem przed zakupem.</li>
+<li>Aktualna wersja regulaminu jest zawsze wersją obowiązującą.</li>
+<li>Administracja ma prawo zmieniać regulamin w dowolnym czasie.</li>
+<li>Zmiany regulaminu obowiązują od momentu ich publikacji.</li>
+<li>Dokonanie zakupu oznacza pełną i bezwarunkową akceptację niniejszego regulaminu.</li>
+  </ol>
+</section>
+
+
+    <div class="footer" id="kontakt">
+      © BlockZone.PL — Regulamin sklepu Minecraft<br>
+      Kontakt: Discord serwera BlockZone.PL
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
